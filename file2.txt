@@ -6,7 +6,9 @@ File 2 V3
 File 2 V2
 File 2 V1
 
-AfxMessageBox("Information");
+#define IDS_INFORMATION "Information"
+
+AfxMessageBox(IDS_INFORMATION);
 
 
 
